@@ -18,5 +18,9 @@ def won?
   if WIN_COMBINATIONS == FALSE
     puts FALSE
   end
+else
+  WIN_COMBINATIONS[]
+  end
 end
+
 
