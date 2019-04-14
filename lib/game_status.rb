@@ -48,5 +48,8 @@ def over?
   end
 end
 
+def winner
+  if over? == TRUE
+    puts 
       
 
