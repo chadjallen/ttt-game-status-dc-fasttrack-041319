@@ -49,7 +49,11 @@ def over?
 end
 
 def winner
-  if over? == TRUE
-    puts 
+  if over? == TRUE && WIN_COMBINATIONS[x] == won?
+    puts WIN_COMBINATIONS[x]
+  end
+end
+
+    
       
 
