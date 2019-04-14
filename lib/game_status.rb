@@ -30,5 +30,16 @@ def full?
   else FALSE
 end
 
+def draw?
+  if won? == FALSE && full? == TRUE
+    puts TRUE
+  end
+  else if won? == FALSE && full? == FALSE
+    puts FALSE
+  end
+  else if won? == TRUE
+    puts FALSE
+  end
+end
       
 
