@@ -41,5 +41,12 @@ def draw?
     puts FALSE
   end
 end
+
+def over?
+  if won? == TRUE || draw? == TRUE || full? == TRUE
+    puts TRUE
+  end
+end
+
       
 
